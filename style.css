@@ -10,3 +10,9 @@ a:hover {
 a:active {
   color: green;
 }
+ body{display:flex;  flex-direction:column;}
+
+ main{display:flex;   flex-direction:row;}  
+ aside{ flex:1;}  article{flex:3}
+
+
