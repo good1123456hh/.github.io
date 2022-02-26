@@ -2,24 +2,42 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-	<title>bilibili</title>
+	<title>去哪儿</title>
 	<link href="https://www.adalab.cn/admission.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
+	<link href="dog.css" rel="stylesheet">
 	<script src="thumbnail.js" ></script>
+	<script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+	<style> 
+	header {
+	  
+	  background: red;
+	  animation: mymove 2s infinite;
+	}
+	
+	@keyframes mymove {
+	  from {background-color: red;}
+	  to {background-color: blue;}
+	  from {background-color: blue;}
+	  to {background-color: green;}
+	}
+	</style>
 	</head>
 						
 <body>
 <header><img src="https://www.w3school.com.cn/i/photo/flower.gif" alt="11"  aheight="50px"width="50px" >
+<center><h1>旅游宝典</h1></center>
 </header>
-             <main>
+             <main background src="https://z3.ax1x.com/2021/07/05/R5XD41.gif">
 <aside >导航链接
  <ul><li>
   <a href="https://www.baidu.com/?tn=44004473_21_oem_dg" target="_blank">百度导航</a> </li>
- </ul>
+ </ul><li><a href="https://www.51zxw.net/" target="_blank">我要自学网考研</a></li>
+ <li><a href="https://www.zhihu.com/zvideo" target="_blank">知乎考研回答</a> </li>
 	</aside>
-<article><h2>hood</h2>
+<article><div class="pan"></div>
 
-
+<h4>hood</h4>
 谁会拒绝凌晨去看一场富士山的日出呢？
 <a href="https://www.bilibili.com/video/BV16Y411V75N?spm_id_from=333.851.b_7265636f6d6d656e64.5" target="_blank">富士山</a>
 <a href="https://github.com/good1123456hh/.github.io/blob/main/index.html">返回index.html</a>
@@ -34,7 +52,15 @@ by<a href="https://https://www.zhihu.com/people/ci-fu-67" target="_blank">个人
 		size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648302902&t=4ebea959f265bf9009f0c17966cba324" 
 		alt="11"
 id="smart-image" class="small" >
+<div id="waline"></div>
+  <script>
+    Waline({
+      el: '#waline',
+      serverURL: 'https://adalba.vercel.app/',
+    });
+  </script>
 </footer>
 
 </body>
 </html>
+
